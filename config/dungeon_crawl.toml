@@ -8,7 +8,7 @@
 [world_generation]
 	#The probability of a dungeon getting generated on each fitting chunk.
 	#Range: 1.0E-4 ~ 1.0
-	dungeon_probability = 0.26
+	dungeon_probability = 0.01
 	#If set to true, the dungeon generation will ignore the dimension and use only the biome blacklists to determine generation eligibility.
 	ignore_dimension = false
 
@@ -30,7 +30,7 @@
 	use_vanilla_spawners = false
 	#This value defines how many mobs do get spawned manually during the generation. (if no_spawners = true, there is no effect otherwise)
 	#Range: 0.001 ~ 1.0
-	mob_spawn_rate = 0.05
+	mob_spawn_rate = 0.02
 	#The number of different entities per spawner. Increasing the number increases the diversity of the monster equipment.
 	#Range: 1 ~ 128
 	spawner_entities = 8
